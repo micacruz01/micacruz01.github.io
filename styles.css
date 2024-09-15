@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Perpetua', serif;
+    background-color: #c3a59a;
+    color: #292727;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* About Me Page */
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Personal Image */
+#personal-image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Hobbies */
+#hobbies ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#hobbies li {
+    margin: 10px 0;
+}
+
+/* Gallery Styles */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-item img {
+    max-width: 200px;
+    border: 2px solid #17202a;
+}
